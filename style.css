@@ -1,0 +1,18 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(24,9,121,1) 35%, rgba(0,80,255,1) 100%);
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+p {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
